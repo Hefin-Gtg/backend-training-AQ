@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.head')
 @section('title', 'Product Registration')
 @section('content')
     {{ Form::open(['route' => 'items.store']) }}

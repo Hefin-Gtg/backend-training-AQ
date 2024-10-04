@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.head')
 @section('title', 'Create Category')
 @section('content')
     <div class="container mt-4">

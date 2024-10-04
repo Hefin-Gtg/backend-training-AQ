@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.head')
 @section('title', 'Product Edit')
 @section('content')
     {{ Form::open(['route' => ['items.update', $item->id], 'method' => 'put']) }}
